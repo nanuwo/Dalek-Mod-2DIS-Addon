@@ -1,0 +1,16 @@
+{
+	"item.2dis_use": {
+		"category": "item",
+		"subtitle": "subtitles.item.2dis.use",
+		"sounds":[
+			{ "name":"dalekmod:entity/sonic_fifth", "stream":false }
+		]
+	},
+	"item.2dis_error": {
+		"category": "item",
+		"subtitle": "subtitles.item.2dis.error",
+		"sounds":[
+			{ "name":"dm2dis:item/2dis_error", "stream":false }
+		]
+	}
+}

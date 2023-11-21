@@ -1,0 +1,8 @@
+{
+	"item.dm2dis.2dis": "2Dis",
+	"subtitles.item.2dis.use": "2Dis activates",
+	"subtitles.item.2dis.error": "2Dis fails",
+	"death.attack.dm2dis.tardis_squished": "%s was squished by %s in a TARDIS!",
+	"death.attack.dm2dis.tardis_squished.item": "%s was squished by %s in a TARDIS!",
+	"death.attack.dm2dis.tardis_squished.player": "%s was squished by %s in a TARDIS!"
+}

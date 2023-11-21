@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" E ",
+		"SCS",
+		"SPS"
+	],
+	"key":	{
+		"E":	{
+			"item": "minecraft:emerald"
+		},
+		"S":	{
+			"item": "dalekmod:steel_ingot"
+		},
+		"C":	{
+			"item": "dalekmod:circuit"
+		},
+		"P":	{
+			"item": "minecraft:paper"
+		}
+	},
+	"result": {
+		"item": "dm2dis:2dis",
+		"count": 1
+	}
+	
+	
+}

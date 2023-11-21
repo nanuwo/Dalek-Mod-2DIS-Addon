@@ -1,0 +1,38 @@
+modLoader="javafml" 
+loaderVersion="[36,)" 
+license="All rights reserved"
+
+[[mods]] 
+modId="dm2dis" 
+version="${file.jarVersion}" 
+displayName="Dalek Mod 2DIS Addon" 
+logoFile="dm2dis.png" 
+credits="The Dalek Mod team, FlatEntities mod" 
+authors="Nanowu" 
+
+description='''
+Adds back the 2Dis! 
+'''
+
+[[dependencies.dm2dis]]    
+    modId="forge"     
+    mandatory=true     
+    versionRange="[36,)"    
+    ordering="NONE"  
+    side="BOTH"
+
+[[dependencies.dm2dis]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+    
+[[dependencies.dm2dis]]
+	modId="dalekmod"
+	mandatory=true
+	versionRange="[68.0.0,)"
+	ordering="NONE"
+	side="BOTH"
+
+    
