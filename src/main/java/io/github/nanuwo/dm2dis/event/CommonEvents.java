@@ -47,7 +47,9 @@ public class CommonEvents {
 	public static void playerStartTracking(PlayerEvent.StartTracking event) {
 		if (event.getPlayer() instanceof ServerPlayerEntity && event.getTarget() instanceof LivingEntity) {
 			LivingEntity entity = (LivingEntity) event.getTarget();
-			entity.getCapability(FlatProvider.FLAT_CAPABILITY).ifPresent(cap -> cap.sync());
+			entity.getCapability(FlatProvider.FLAT_CAPABILITY).ifPresent(cap -> {				
+				cap.sync();
+			});
 		}
 	}
 

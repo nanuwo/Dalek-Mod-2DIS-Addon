@@ -32,7 +32,7 @@ public class PacketSyncEntityFlat {
 		NetworkEvent.Context ctx = supplier.get();
 		ctx.enqueueWork(() -> {
 			LivingEntity entity = (LivingEntity) Minecraft.getInstance().level.getEntity(entityID);
-			entity.getCapability(FlatProvider.FLAT_CAPABILITY).ifPresent(cap -> cap.setFlat(this.isFlat));		
+			entity.getCapability(FlatProvider.FLAT_CAPABILITY).ifPresent(cap -> cap.setFlat(this.isFlat));
 		});
 		ctx.setPacketHandled(true);
 	}

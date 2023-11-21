@@ -30,10 +30,8 @@ public class RenderEvent {
 			double x =  entity.getX() - player.getX();
 			double z = entity.getZ() - player.getZ();
 			double angle1 =  MathHelper.wrapDegrees(Math.atan2(x,z) / Math.PI * 180.0D);
-			double angle2 = Math.floor((f - angle1) / 45.0D) * 45.0D;
 			matrixStack.mulPose(Vector3f.YP.rotationDegrees((float) angle1+90f));
 			matrixStack.scale(0.1f, 1.0f, 1.0f);
-			matrixStack.mulPose(Vector3f.YP.rotationDegrees((float) angle2));
 		});
 	}
 	//Copied vanilla code because mixins weren't working and the matrixstack scaling is weird

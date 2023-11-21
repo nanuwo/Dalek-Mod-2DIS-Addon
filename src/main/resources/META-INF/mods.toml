@@ -4,7 +4,7 @@ license="All rights reserved"
 
 [[mods]] 
 modId="dm2dis" 
-version="${file.jarVersion}" 
+version="1.0.0"
 displayName="Dalek Mod 2DIS Addon" 
 logoFile="dm2dis.png" 
 credits="The Dalek Mod team, FlatEntities mod" 
