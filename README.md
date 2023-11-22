@@ -1,4 +1,4 @@
-# Dalek-Mod-2DIS-Addon
+# Dalek Mod 2DIS Addon
 Adds back the 2Dis to the Dalek Mod!
 
 Features:
