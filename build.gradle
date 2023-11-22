@@ -13,7 +13,7 @@ apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0.0'
+version = "${project.property('version')}"
 group = 'io.github.nanuwo.dm2dis' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'dm2dis'
 
